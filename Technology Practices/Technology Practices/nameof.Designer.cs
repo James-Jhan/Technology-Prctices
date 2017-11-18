@@ -1,6 +1,6 @@
 ﻿namespace Technology_Practices
 {
-    partial class Form1
+    partial class nameof
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.NameofBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // NameofBtn
+            // 
+            this.NameofBtn.Location = new System.Drawing.Point(72, 77);
+            this.NameofBtn.Name = "NameofBtn";
+            this.NameofBtn.Size = new System.Drawing.Size(140, 94);
+            this.NameofBtn.TabIndex = 0;
+            this.NameofBtn.Text = "Show Function Name";
+            this.NameofBtn.UseVisualStyleBackColor = true;
+            this.NameofBtn.Click += new System.EventHandler(this.NameofBtn_Click);
+            // 
+            // nameof
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Controls.Add(this.NameofBtn);
+            this.Name = "nameof";
+            this.Text = "nameof";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button NameofBtn;
     }
 }
 
