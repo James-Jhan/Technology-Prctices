@@ -16,7 +16,7 @@ namespace Technology_Practices
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new nameof());
+            Application.Run(new Chapter1());
         }
     }
 }

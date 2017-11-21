@@ -1,6 +1,6 @@
 ﻿namespace Technology_Practices
 {
-    partial class nameof
+    partial class Chapter1
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -41,14 +41,16 @@
             this.NameofBtn.UseVisualStyleBackColor = true;
             this.NameofBtn.Click += new System.EventHandler(this.NameofBtn_Click);
             // 
-            // nameof
+            // Chapter1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 253);
             this.Controls.Add(this.NameofBtn);
-            this.Name = "nameof";
-            this.Text = "nameof";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Chapter1";
+            this.Text = "Chapter1 Function";
             this.ResumeLayout(false);
 
         }
